@@ -1,0 +1,38 @@
+body {
+    margin: 20px;
+    font-family: 'Fira Code', monospace;
+    background-color: rgb(22, 26, 37);
+    color: rgb(125, 207, 105);
+}
+
+button{
+    background-color: rgb(125, 207, 105);
+    color: rgb(22, 26, 37);
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(81, 158, 62);
+}
+ul li{
+    list-style-type: none;
+}
+
+input[type='submit']{
+    background-color: rgb(125, 207, 105);
+    color: rgb(22, 26, 37);
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#result-container{
+    border: rgb(125, 207, 105) 1px solid;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+
+
